@@ -54,7 +54,8 @@
             h3 {
                 margin: 0;
                 font-size: 5rem;
-                font-family: $main-font;
+                @apply text-primary font-primary;
+                // font-family: $main-font;
             }
 
             .wysiwyg {
@@ -75,10 +76,11 @@
 
                     li {
                         padding: 10px 20px;
-                        background-color: $secondary-color;
-                        color: $primary-color;
+                        // background-color: $secondary-color;
+                        @apply text-primary font-primary bg-secondary;
+                        // color: $primary-color;
                         font-size: 2rem;
-                        font-family: $main-font;
+                        // font-family: $main-font;
                         border-radius: 10px;
                     }
                 }
