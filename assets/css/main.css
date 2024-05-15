@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply box-border;
+    }
+    body {
+        @apply m-0 text-base bg-secondary;
+    }
+    @font-face {
+        font-family: 'Lemon';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(~/assets/fonts/Lemon-Regular.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'Philosopher';
+        font-style: bold;
+        font-weight: 700;
+        font-display: swap;
+        src: url(~/assets/fonts/Philosopher-Bold.ttf) format('truetype');
+    }
+    @font-face {
+        font-family: 'Philosopher';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(~/assets/fonts/Philosopher-Bold.ttf) format('truetype');
+    }
+}
