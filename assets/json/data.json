@@ -1,0 +1,35 @@
+{
+    "projets": [
+        {
+            "nom": "Admissions",
+            "lien": "https://www.admissions.fr/",
+            "image": "https://picsum.photos/id/337/477/400",
+            "technologie": ["HTML/CSS", "Typescript", "NuxtJs", "Wordpress (Back-end)"]
+        },
+        {
+            "nom": "Freelance",
+            "image": "https://picsum.photos/id/247/477/400",
+            "technologie": ["Python", "Django"]
+        },
+        {
+            "nom": "Nutrilien",
+            "image": "https://picsum.photos/id/267/477/400",
+            "technologie": ["React", "Node.js"]
+        },
+        {
+            "nom": "Packshot",
+            "image": "https://picsum.photos/id/357/477/400",
+            "technologie": ["React", "Node.js"]
+        },
+        {
+            "nom": "Viltier",
+            "image": "https://picsum.photos/id/47/477/400",
+            "technologie": ["React", "Node.js"]
+        },
+        {
+            "nom": "Loic Zadra",
+            "image": "https://picsum.photos/id/48/477/400",
+            "technologie": ["React", "Node.js"]
+        }
+    ]
+}
